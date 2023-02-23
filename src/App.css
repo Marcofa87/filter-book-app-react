@@ -1,0 +1,10 @@
+h1 {
+  text-align: center;
+  font-size: 3rem;
+  font-family: monospace;
+  color: #9bcc00;
+}
+
+body{
+  background-image: linear-gradient(to right top, #0d070a, #13090b, #180c09, #1a0f05, #1a1303, #1a1302, #191302, #191301, #190f01, #180b02, #150703, #100303);
+}

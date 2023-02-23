@@ -1,0 +1,72 @@
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.card-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+}
+
+.card-table th,
+.card-table td {
+  padding: 10px 15px;
+  border-bottom: 1px solid #ddd;
+  border-right: 1px solid rgb(113, 113, 113) ;
+}
+
+.card-table th {
+  font-weight: bold;
+  background-color: #f2f2f2;
+  text-align: center;
+}
+
+.card-table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.card-table tbody tr:nth-child(odd) {
+  background-color: #e0e0e0;
+}
+
+
+.card-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.card-img {
+  width: 50px;
+  height: 70px;
+  object-fit: contain;
+  display: block;
+  margin: 0 auto;
+}
+
+.card-image-container {
+  width: 80px;
+}
+
+.card-title {
+  font-weight: bold;
+}
+
+.card-buy-now {
+  text-align: center;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #3e8e41;
+}
